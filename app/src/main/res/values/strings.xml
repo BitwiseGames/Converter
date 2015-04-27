@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="header">I want to convert…</string>
+
+    <string name="title_activity_temperature_convert">Temperature Convert</string>
+
+    <string name="title_activity_distance_convert">Distance Convert</string>
+    <string-array name="distanceUnits">
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Mile</item>
+    </string-array>
+    <string name="title_activity_time_convert">Time Convert</string>
+    <string-array name="timeUnits">
+        <item>Millisecond</item>
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+    <string name="title_activity_digital_storage_convert">Digital Storage Convert</string>
+    <string-array name="digitalStorageUnits">
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>Kilobit</item>
+        <item>Kilobyte</item>
+        <item>Megabit</item>
+        <item>Megabyte</item>
+        <item>Gigabit</item>
+        <item>Gigabyte</item>
+        <item>Terabit</item>
+        <item>Terabyte</item>
+    </string-array>
+
+
+
+</resources>

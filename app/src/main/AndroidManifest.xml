@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luke.converter" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TemperatureConvert"
+            android:label="@string/title_activity_temperature_convert" >
+        </activity>
+        <activity
+            android:name=".DistanceConvert"
+            android:label="@string/title_activity_distance_convert" >
+        </activity>
+        <activity
+            android:name=".TimeConvert"
+            android:label="@string/title_activity_time_convert" >
+        </activity>
+        <activity
+            android:name=".DigitalStorageConvert"
+            android:label="@string/title_activity_digital_storage_convert" >
+        </activity>
+    </application>
+
+</manifest>
